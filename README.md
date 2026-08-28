@@ -127,8 +127,10 @@ SQL-Developer-Internship/
     ├── README.md
     └── task2_data_handling.sql
 
+---
 ## 👩‍💻 Author
 
 **Sharanya A**
 
 This repository will be updated as additional internship tasks are completed.
+---
