@@ -53,9 +53,39 @@ In this task, I designed and implemented a relational database for a Library Man
 
 ---
 
-### Task 2
+### ✅ Task 2: Data Insertion and Handling NULLs
 
-*To be added.*
+**Domain:** Library Management System
+
+In this task, I populated the Library Management System database and practiced different Data Manipulation Language (DML) operations.
+
+**Topics covered:**
+- `INSERT`
+- `UPDATE`
+- `DELETE`
+- `NULL` handling
+- `IS NULL`
+- `DEFAULT` values
+- `WHERE` conditions
+- Partial column insertion
+- `INSERT ... SELECT`
+- Data verification
+- Data consistency
+
+**Operations performed:**
+- Inserted sample members, books, authors, and loan records
+- Inserted records containing `NULL` values
+- Used default values when inserting books
+- Updated individual and multiple records
+- Deleted a specific loan record using a `WHERE` condition
+- Retrieved records containing `NULL`
+- Practiced inserting data using `SELECT`
+
+**Deliverables:**
+- SQL script
+- Task documentation
+
+📁 [View Task 2](./Task-2-Data-Insertion-and-Handling-Nulls/)
 
 ---
 
@@ -67,16 +97,19 @@ In this task, I designed and implemented a relational database for a Library Man
 
 ## 🎯 Learning Objectives
 
-Through these tasks, I aim to develop practical knowledge of:
+Through these tasks, I am developing practical knowledge of:
 
-* Relational database design
-* SQL programming
-* Database normalization
-* Data integrity and constraints
-* Table relationships
-* Query writing
-* Database management
-* SQL best practices
+- Relational database design
+- SQL programming
+- DDL and DML
+- Database normalization
+- Primary and foreign keys
+- Database constraints
+- Table relationships
+- NULL handling
+- Data manipulation
+- Data integrity and consistency
+- SQL best practices
 
 ## 📂 Repository Structure
 
@@ -90,12 +123,9 @@ SQL-Developer-Internship/
 │   ├── library_database.sql
 │   └── ER_Diagram.png
 │
-├── Task-2/
-│   └── ...
-│
-└── Task-3/
-    └── ...
-```
+└── Task-2-Data-Insertion-and-Handling-Nulls/
+    ├── README.md
+    └── task2_data_handling.sql
 
 ## 👩‍💻 Author
 
