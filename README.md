@@ -180,10 +180,6 @@ SQL-Developer-Internship/
 ├── Task-3-Writing-Basic-SELECT-Queries/
 │   ├── README.md
 │   └── task3_select_queries.sql
----
-## 👩‍💻 Author
-
-**Sharanya A**
 
 This repository will be updated as additional internship tasks are completed.
 ---
