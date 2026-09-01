@@ -89,7 +89,55 @@ In this task, I populated the Library Management System database and practiced d
 
 ---
 
-### Task 3
+### Task 3: Writing Basic SELECT Queries
+
+**Domain:** Library Management System
+
+In this task, I practiced retrieving and filtering data from database tables using SQL `SELECT` queries.
+
+**Topics covered:**
+
+* `SELECT *`
+* Selecting specific columns
+* `WHERE`
+* `AND`
+* `OR`
+* `LIKE`
+* `BETWEEN`
+* `IN`
+* `DISTINCT`
+* `ORDER BY`
+* `ASC`
+* `DESC`
+* `LIMIT`
+* Aliasing
+* `IS NULL`
+
+**Operations performed:**
+
+* Retrieved all columns and records using `SELECT *`
+* Selected specific columns from tables
+* Filtered records using `WHERE`
+* Combined conditions using `AND` and `OR`
+* Performed pattern matching using `LIKE`
+* Filtered data within a range using `BETWEEN`
+* Used `IN` to match multiple values
+* Retrieved unique values using `DISTINCT`
+* Sorted data using `ORDER BY`
+* Used `LIMIT` to restrict the number of rows returned
+* Used aliases to provide meaningful column names
+* Retrieved records containing `NULL` values using `IS NULL`
+
+**Deliverables:**
+
+* SQL script
+* Task documentation
+
+📁 [View Task 3](./Task-3-Writing-Basic-SELECT-Queries/)
+
+---
+
+### Task 4
 
 *To be added.*
 
@@ -97,19 +145,21 @@ In this task, I populated the Library Management System database and practiced d
 
 ## 🎯 Learning Objectives
 
-Through these tasks, I am developing practical knowledge of:
+Through these tasks, I aim to develop practical knowledge of:
 
-- Relational database design
-- SQL programming
-- DDL and DML
-- Database normalization
-- Primary and foreign keys
-- Database constraints
-- Table relationships
-- NULL handling
-- Data manipulation
-- Data integrity and consistency
-- SQL best practices
+* Relational database design
+* SQL programming
+* DDL and DML
+* Database normalization
+* Data integrity and constraints
+* Table relationships
+* Query writing
+* Data retrieval
+* Filtering and projection
+* NULL handling
+* Data manipulation
+* Database management
+* SQL best practices
 
 ## 📂 Repository Structure
 
@@ -123,10 +173,13 @@ SQL-Developer-Internship/
 │   ├── library_database.sql
 │   └── ER_Diagram.png
 │
-└── Task-2-Data-Insertion-and-Handling-Nulls/
-    ├── README.md
-    └── task2_data_handling.sql
-
+├── Task-2-Data-Insertion-and-Handling-Nulls/
+│   ├── README.md
+│   └── task2_data_handling.sql
+│
+├── Task-3-Writing-Basic-SELECT-Queries/
+│   ├── README.md
+│   └── task3_select_queries.sql
 ---
 ## 👩‍💻 Author
 
