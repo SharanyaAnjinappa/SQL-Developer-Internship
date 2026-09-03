@@ -137,7 +137,51 @@ In this task, I practiced retrieving and filtering data from database tables usi
 
 ---
 
-### Task 4
+### Task 4: Aggregate Functions and Grouping
+
+**Domain:** Library Management System
+
+In this task, I practiced using aggregate functions and grouping techniques to summarize and analyze data in the Library Management System.
+
+**Topics covered:**
+
+* `COUNT()`
+* `SUM()`
+* `AVG()`
+* `MIN()`
+* `MAX()`
+* `ROUND()`
+* `GROUP BY`
+* `HAVING`
+* `WHERE` with grouping
+* `COUNT(DISTINCT)`
+* Grouping by multiple columns
+* Aggregate functions with `JOIN`
+
+**Operations performed:**
+
+* Counted total members, books, and loans
+* Calculated the total quantity of books using `SUM()`
+* Calculated average book quantity using `AVG()`
+* Found minimum and maximum values using `MIN()` and `MAX()`
+* Grouped books by publication year and quantity
+* Counted loans made by each member
+* Filtered grouped results using `HAVING`
+* Combined `WHERE` with `GROUP BY`
+* Counted distinct publication years and members
+* Used aggregate functions together with `JOIN`
+* Used `ROUND()` to format average values
+
+**Deliverables:**
+
+* SQL script
+* Task documentation
+
+📁 [View Task 4](./Task-4-Aggregate-Functions-and-Grouping/)
+
+---
+
+### Task 5
 
 *To be added.*
 
@@ -158,6 +202,8 @@ Through these tasks, I aim to develop practical knowledge of:
 * Filtering and projection
 * NULL handling
 * Data manipulation
+* Aggregate functions
+* Data grouping and summarization
 * Database management
 * SQL best practices
 
@@ -180,6 +226,10 @@ SQL-Developer-Internship/
 ├── Task-3-Writing-Basic-SELECT-Queries/
 │   ├── README.md
 │   └── task3_select_queries.sql
-
-This repository will be updated as additional internship tasks are completed.
----
+│
+├── Task-4-Aggregate-Functions-and-Grouping/
+│   ├── README.md
+│   └── task4_aggregate_grouping.sql
+│
+└── Task-5/
+    └── ..
