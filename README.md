@@ -181,7 +181,43 @@ In this task, I practiced using aggregate functions and grouping techniques to s
 
 ---
 
-### Task 5
+### Task 5: SQL Joins
+
+**Domain:** Library Management System
+
+In this task, I practiced combining data from multiple related tables using different types of SQL joins.
+
+**Topics covered:**
+* `INNER JOIN`
+* `LEFT JOIN`
+* `RIGHT JOIN`
+* `FULL OUTER JOIN`
+* `CROSS JOIN`
+* `SELF JOIN`
+* Multiple-table joins
+* `UNION`
+* NULL handling with joins
+* `DISTINCT`
+
+**Operations performed:**
+* Used INNER JOIN to retrieve matching records
+* Used LEFT JOIN to include all records from the left table
+* Used RIGHT JOIN to include all records from the right table
+* Simulated FULL OUTER JOIN using LEFT JOIN, RIGHT JOIN, and UNION because MySQL does not directly support FULL OUTER JOIN
+* Joined multiple tables to retrieve member, book, and author information
+* Used CROSS JOIN to demonstrate Cartesian products
+* Used SELF JOIN to compare records within the same table
+* Combined joins with `WHERE`, `ORDER BY`, NULL checks, and `DISTINCT`
+
+**Deliverables:**
+* SQL script
+* Task documentation
+
+📁 [View Task 5](./Task-5-SQL-Joins/)
+
+---
+
+### Task 6
 
 *To be added.*
 
@@ -189,23 +225,22 @@ In this task, I practiced using aggregate functions and grouping techniques to s
 
 ## 🎯 Learning Objectives
 
-Through these tasks, I aim to develop practical knowledge of:
+Through these tasks, I am developing practical knowledge of:
 
 * Relational database design
-* SQL programming
-* DDL and DML
-* Database normalization
-* Data integrity and constraints
-* Table relationships
-* Query writing
-* Data retrieval
-* Filtering and projection
+* SQL database creation
+* Table and schema design
+* Primary and foreign keys
+* Constraints
+* Normalization
+* Data insertion and manipulation
 * NULL handling
-* Data manipulation
+* Data filtering and sorting
 * Aggregate functions
-* Data grouping and summarization
-* Database management
-* SQL best practices
+* Grouping and filtering grouped data
+* SQL joins and relationships
+* Multi-table queries
+* Database management using MySQL Workbench
 
 ## 📂 Repository Structure
 
@@ -231,5 +266,11 @@ SQL-Developer-Internship/
 │   ├── README.md
 │   └── task4_aggregate_grouping.sql
 │
+├── Task-5-SQL-Joins/
+│   ├── README.md
+│   └── task5_sql_joins.sql
+│
+└── Task-6/
+    └── ...
 └── Task-5/
     └── ..
