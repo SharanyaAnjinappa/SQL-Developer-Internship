@@ -272,5 +272,3 @@ SQL-Developer-Internship/
 │
 └── Task-6/
     └── ...
-└── Task-5/
-    └── ..
