@@ -217,9 +217,44 @@ In this task, I practiced combining data from multiple related tables using diff
 
 ---
 
-### Task 6
+### Task 6: Subqueries and Nested Queries
 
-*To be added.*
+**Domain:** Library Management System
+
+In this task, I practiced using subqueries and nested queries to perform advanced filtering, comparison, and data analysis.
+
+**Topics covered:**
+* Subqueries
+* Nested queries
+* Scalar subqueries
+* Correlated subqueries
+* `IN`
+* `EXISTS`
+* `NOT EXISTS`
+* Subqueries in `SELECT`
+* Subqueries in `WHERE`
+* Subqueries in `FROM`
+* Derived tables
+* Filtering
+
+**Operations performed:**
+* Used scalar subqueries to compare values with aggregate results
+* Used subqueries with `IN`
+* Used subqueries with `=`
+* Used `EXISTS` to check whether related records exist
+* Used `NOT EXISTS` to find records without related records
+* Used correlated subqueries
+* Used subqueries inside the `SELECT` clause
+* Used subqueries inside the `FROM` clause
+* Created derived tables using nested queries
+* Used nested logic with aggregate functions
+* Filtered records using results returned by subqueries
+
+**Deliverables:**
+* SQL queries with nested logic
+* Task documentation
+
+📁 [View Task 6](./Task-6-Subqueries-and-Nested-Queries/)
 
 ---
 
@@ -240,6 +275,9 @@ Through these tasks, I am developing practical knowledge of:
 * Grouping and filtering grouped data
 * SQL joins and relationships
 * Multi-table queries
+* Subqueries and nested queries
+* Correlated subqueries
+* Advanced SQL filtering
 * Database management using MySQL Workbench
 
 ## 📂 Repository Structure
@@ -270,5 +308,6 @@ SQL-Developer-Internship/
 │   ├── README.md
 │   └── task5_sql_joins.sql
 │
-└── Task-6/
-    └── ...
+├── Task-6-Subqueries-and-Nested-Queries/
+│   ├── README.md
+│   └── task6_subqueries.sql
