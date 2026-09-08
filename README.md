@@ -309,5 +309,5 @@ SQL-Developer-Internship/
 │   └── task5_sql_joins.sql
 │
 ├── Task-6-Subqueries-and-Nested-Queries/
-│   ├── README.md
-│   └── task6_subqueries.sql
+    ├── README.md
+    └── task6_subqueries.sql
